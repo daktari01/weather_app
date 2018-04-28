@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import Titles from './components/Titles';
 
 class App extends Component{
   render(){
     return(
-      <div>Hello!</div>
+      <div>
+        <Titles />
+      </div>
     );
   }
 }
